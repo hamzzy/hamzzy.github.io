@@ -1,0 +1,65 @@
+html{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background-color: #fff;
+	color: #000;
+}
+
+/***
+**	colors
+***/
+.cl-white{
+	color: #fff;
+}
+.cl-black{
+	color: #000;
+}
+.cle{
+	color: #eee;
+}
+
+.txt-big{
+	size: 20px;
+}
+/***
+**	BUTTONS
+***/
+.btnn-dark{
+	background-color: #000;
+	color: #fff;
+	cursor: pointer;
+	width: 9.9em !important;
+}
+
+#sub-hov input:hover{
+	background-color: #fff !important;
+	color: #000 !important;
+	border: 0.1em solid black;
+	transition: 0.7s ease-in-out;
+}
+.foc-ch:focus{
+	background-color: #fff !important;
+	color: black;
+	border: none !important;
+	border-bottom: 0.2em solid black !important;
+	transition: 0.2s linear;
+	-webkit-transition: 0.2s linear;
+	box-shadow: none !important;
+}
+#foot-2 a{
+	color: black;
+	font-weight: bold;
+}
+
+#foot-2 a:hover{
+	text-decoration: none;
+	opacity: 0.4;
+	transition: 0.3s ease-out;
+}
+.text-lg-grey{
+	color: #dcdcdc;
+	font-size: 30vh;
+	font-weight: bold;
+}
